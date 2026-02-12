@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BINTANG -->
+<div id="stars"></div>
+
+<!-- Meteor Layer -->
+<div id="meteor-layer"></div>
+
+<!-- Spaceship -->
+<img src="assets/spaceship.png" id="spaceship">
+
+<!-- PLANET -->
+<div class="planets">
+  <img src="assets/sun.png" class="sun">
+  <img src="assets/mercury.png" class="mercury">
+  <img src="assets/venus.png" class="venus">
+  <img src="assets/earth.png" class="earth">
+  <img src="assets/mars.png" class="mars">
+  <img src="assets/jupiter.png" class="jupiter">
+  <img src="assets/saturn.png" class="saturn">
+  <img src="assets/uranus.png" class="uranus">
+  <img src="assets/neptune.png" class="neptune">
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="profile-wrapper">
+    <img src="assets/profile.jpg" class="profile">
+  </div>
+  <h1 class="name">M. Fadlan Syahrudin</h1>
+
+  <!-- ABOUT -->
+  <div class="accordion box active">
+    <div class="accordion-header">
+      <h2>About Me</h2><span class="arrow">⌄</span>
+    </div>
+    <div class="accordion-content">
+      <p>
+        Aku adalah seorang pelajar SMP yang suka mempelajari dunia programmer.
+        Aku senang membuat website, animasi, dan hal kreatif lainnya.
+        Selain itu aku suka berolahraga, bermain game, dan menikmati
+        keindahan bintang-bintang malam yang indah.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section compact">
+  <!-- HOBBIES -->
+  <div class="accordion box">
+    <div class="accordion-header">
+      <h2>Hobbies</h2><span class="arrow">⌄</span>
+    </div>
+    <div class="accordion-content">
+      <p>💻 Programming (HTML, CSS, JavaScript)</p>
+      <p>🎮 Bermain game</p>
+      <p>📚 Membaca & belajar hal baru</p>
+      <p>💪 Berolahraga</p>
+      <p>🌌 Mengamati langit malam</p>
+      <p>🎧 Mendengarkan musik</p>
+    </div>
+  </div>
+</section>
+
+<section class="section compact">
+  <!-- MY WORK -->
+  <div class="accordion box">
+    <div class="accordion-header">
+      <h2>My Work</h2>
+      <span class="arrow">⌄</span>
+    </div>
+
+    <div class="accordion-content work-content">
+
+  <div class="work-card"
+       onclick="window.location.href='./jurnal.html'">
+
+    <img src="assets/journal-icon.png" alt="Jurnal Icon">
+
+    <div class="work-info">
+      <h3>Jurnal 7 Kebiasaan Anak Indonesia Hebat</h3>
+      <p>(7 KAIH)</p>
+      <span>Klik untuk membuka</span>
+    </div>
+
+  </div>
+
+</div>
+</section>
+
+<section class="section compact">
+  <div class="box">
+    <h2>Contacts</h2>
+    <div class="social-icons">
+      <a href="https://wa.me/62081381746986" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg">
+      </a>
+      <a href="https://www.tiktok.com/@normal_guy090?_r=1&_t=ZS-93eujtMVFTA" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg">
+      </a>
+      <a href="https://www.instagram.com/idkwhatihavetoputinhere?igsh=MTlyZ2JtMWZpYzgybg==" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg">
+      </a>
+      <a href="https://discord.com/users/theweird_oneq" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+© 2026 M. Fadlan Syahrudin
+</footer>
+
+<div class="music-box" id="musicBox">Play music</div>
+<audio id="music" src="assets/sobitter.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
